@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        "xs": "360px",
+        "sm": "420px"
+      },
       fontFamily: {
         "sans": ["Roboto", "Helvetica", "Arial", "sans-serif"]
       },
@@ -17,6 +21,10 @@ module.exports = {
         brand: {
           300: "#FFF9979",
           500: "#F57D58",
+          700: "#F25C2F",
+        },
+        green: {
+          500: "#04D361",
         },
         neutral: {
           200: "#E1E1E6",
